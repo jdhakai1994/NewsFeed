@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">News Feed</string>
+
+    <!-- text to be displayed if no internet connection -->
+    <string name="no_internet">No Internet Connectivity.</string>
+
+    <!-- text to be displayed if no data is fetched -->
+    <string name="no_data_fetched">No Data Fetched.</string>
+
+    <!-- text to be displayed while someone clicks on a list item to visit the link -->
+    <string name="chooser_title">Launch the webpage via</string>
+
+    <!-- text to be displayed on the settings activity title and overflow menu -->
+    <string name="settings">Settings</string>
+
+    <!-- below section is for Preference menu -->
+    <string name="settings_football_key" translatable="false">football</string>
+    <string name="settings_football_default" translatable="false">true</string>
+    <string name="settings_football_label">Football</string>
+
+    <string name="settings_cricket_key" translatable="false">cricket</string>
+    <string name="settings_cricket_default" translatable="false">true</string>
+    <string name="settings_cricket_label">Cricket</string>
+
+    <string name="settings_us_key" translatable="false">us</string>
+    <string name="settings_us_default" translatable="false">false</string>
+    <string name="settings_us_label">US News</string>
+
+    <string name="settings_uk_key" translatable="false">uk</string>
+    <string name="settings_uk_default" translatable="false">false</string>
+    <string name="settings_uk_label">UK News</string>
+
+    <string name="settings_politics_key" translatable="false">politics</string>
+    <string name="settings_politics_default" translatable="false">true</string>
+    <string name="settings_politics_label">Politics</string>
+
+    <string name="settings_business_key" translatable="false">business</string>
+    <string name="settings_business_default" translatable="false">false</string>
+    <string name="settings_business_label">Business</string>
+
+    <string name="settings_news_count_key">news_count</string>
+    <string name="settings_news_count_default">100</string>
+    <string name="settings_news_count_label">News Count</string>
+
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+    <string name="settings_order_by_label">Order By</string>
+
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+</resources>

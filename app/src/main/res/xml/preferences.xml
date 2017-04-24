@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Topics">
+
+        <SwitchPreference
+            android:defaultValue="@string/settings_football_default"
+            android:key="@string/settings_football_key"
+            android:title="@string/settings_football_label" />
+
+        <SwitchPreference
+            android:defaultValue="@string/settings_cricket_default"
+            android:key="@string/settings_cricket_key"
+            android:title="@string/settings_cricket_label" />
+
+        <SwitchPreference
+            android:defaultValue="@string/settings_business_default"
+            android:key="@string/settings_business_key"
+            android:title="@string/settings_business_label" />
+
+        <SwitchPreference
+            android:defaultValue="@string/settings_politics_default"
+            android:key="@string/settings_politics_key"
+            android:title="@string/settings_politics_label" />
+
+        <SwitchPreference
+            android:defaultValue="@string/settings_uk_default"
+            android:key="@string/settings_uk_key"
+            android:title="@string/settings_uk_label" />
+
+        <SwitchPreference
+            android:defaultValue="@string/settings_us_default"
+            android:key="@string/settings_us_key"
+            android:title="@string/settings_us_label" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Others">
+
+        <EditTextPreference
+            android:defaultValue="@string/settings_news_count_default"
+            android:key="@string/settings_news_count_key"
+            android:title="@string/settings_news_count_label"
+            android:inputType="number" />
+
+        <ListPreference
+            android:defaultValue="@string/settings_order_by_default"
+            android:entries="@array/settings_order_by_labels"
+            android:entryValues="@array/settings_order_by_values"
+            android:key="@string/settings_order_by_key"
+            android:title="@string/settings_order_by_label" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
